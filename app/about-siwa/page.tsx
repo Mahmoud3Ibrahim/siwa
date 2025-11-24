@@ -14,19 +14,19 @@ export default function AboutSiwaPage() {
         {
             icon: MapPin,
             title: t.aboutSiwa.section1Title,
-            description: t.aboutSiwa.section1Desc,
+            description: t.aboutSiwa.section1Text,
             image: siwaImages.desertDunes,
         },
         {
             icon: History,
             title: t.aboutSiwa.section2Title,
-            description: t.aboutSiwa.section2Desc,
+            description: t.aboutSiwa.section2Text,
             image: siwaImages.saltLakeReflection, // Using Siwa3.jpg
         },
         {
             icon: Sparkles,
             title: t.aboutSiwa.section3Title,
-            description: t.aboutSiwa.section3Desc,
+            description: t.aboutSiwa.section3Text,
             image: siwaImages.oasisPalms,
         },
     ];
