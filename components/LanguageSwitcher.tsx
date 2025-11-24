@@ -39,6 +39,8 @@ export function LanguageSwitcher() {
                 className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/20 backdrop-blur-md border border-white/30 text-desert-900 hover:bg-white/30 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                aria-label="Switch Language"
+                aria-expanded={isOpen}
             >
                 <Languages className="w-4 h-4" />
                 <span className="font-medium text-sm flex items-center gap-2">

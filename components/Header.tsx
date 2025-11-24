@@ -109,6 +109,8 @@ export function Header() {
                             className="lg:hidden p-2 rounded-lg bg-white/20 backdrop-blur-md border border-white/30 text-desert-900 hover:bg-white/30 transition-all"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
+                            aria-label="Toggle Mobile Menu"
+                            aria-expanded={isMobileMenuOpen}
                         >
                             {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
                         </motion.button>

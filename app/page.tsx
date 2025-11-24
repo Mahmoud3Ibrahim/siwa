@@ -79,7 +79,7 @@ export default function HomePage() {
                         fill
                         className="object-cover"
                         priority
-                        quality={80}
+                        quality={75}
                         sizes="100vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
