@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", system-ui, sans-serif;
+    --font-playfair: "Playfair Display", serif;
+    --font-cairo: "Cairo", sans-serif;
+  }
+
+  body {
+    @apply bg-sand-100 text-desert-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html[dir="rtl"] body {
+    font-family: var(--font-cairo), sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
