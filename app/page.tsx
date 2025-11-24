@@ -79,7 +79,8 @@ export default function HomePage() {
                         fill
                         className="object-cover"
                         priority
-                        quality={85}
+                        quality={80}
+                        sizes="100vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
                 </motion.div>
@@ -191,6 +192,7 @@ export default function HomePage() {
                                             fill
                                             className="object-cover transition-transform duration-500 group-hover:scale-110"
                                             loading="lazy"
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                                         <div className="absolute bottom-4 left-4">
@@ -223,6 +225,7 @@ export default function HomePage() {
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                                 loading="lazy"
+                                sizes="(max-width: 1024px) 100vw, 50vw"
                             />
                             <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
                         </div>
@@ -292,6 +295,7 @@ export default function HomePage() {
                         fill
                         className="object-cover"
                         loading="lazy"
+                        sizes="100vw"
                     />
                     <div className="absolute inset-0 bg-black/60" />
                 </div>
